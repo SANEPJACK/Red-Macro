@@ -104,6 +104,7 @@
   <ItemGroup>
     <Compile Include="ActionItem.cs" />
     <Compile Include="AuthCheck.cs" />
+    <!-- ตัวอย่างการเช็ค Firebase -->
     <!-- <Compile Include="LicenseManager.cs" /> -->
     <!-- <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
