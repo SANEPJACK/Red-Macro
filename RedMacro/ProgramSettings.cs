@@ -25,6 +25,12 @@ namespace RedSkullShoot
 		// (set) Token: 0x06000016 RID: 22 RVA: 0x000028CD File Offset: 0x00000ACD
 		public List<ActionItem> ActionSequence { get; set; }
 
+		public List<ActionItem> AutoActionSequence { get; set; }
+
+		public List<ActionItem> ShotgunActionSequence { get; set; }
+
+		public List<ActionItem> SniperActionSequence { get; set; }
+
 		// Token: 0x1700000C RID: 12
 		// (get) Token: 0x06000017 RID: 23 RVA: 0x000028D6 File Offset: 0x00000AD6
 		// (set) Token: 0x06000018 RID: 24 RVA: 0x000028DE File Offset: 0x00000ADE
@@ -124,6 +130,9 @@ namespace RedSkullShoot
 		public ProgramSettings()
 		{
 			this.ActionSequence = new List<ActionItem>();
+			this.AutoActionSequence = new List<ActionItem>();
+			this.ShotgunActionSequence = new List<ActionItem>();
+			this.SniperActionSequence = new List<ActionItem>();
 			this.CustomRegion = new Rectangle(960, 0, 20, 540);
 		}
 	}
